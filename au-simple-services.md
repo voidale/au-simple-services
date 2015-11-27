@@ -1,4 +1,4 @@
-# Demo Simple Services Agreement
+# Simple Services Agreement
 
 `Purpose` If you provide services to people (software development, lawn mowing, graphic design - stuff like that), the _Simple_ _Services_ _Agreement_:
 - gets you paid;
@@ -8,8 +8,6 @@
 Feel free to get in touch with Pat (the software provider / lawyer responsible for all this) on pat[at]codepact[dot]com to tell him what you think of CodePact.
 
 This agreement is on [Github](http://github.com) in [Markdown](https://help.github.com/articles/github-flavored-markdown/). If you’re logged in to Github, [Click here to submit a PULL REQUEST](http://github.com/CodePact/au-simple-services/pull/new/master) and [click here to FORK this document](https://github.com/CodePact/au-simple-services/fork). This is an **open source** document – contributions and evolutions are welcome!
-
-If you prefer to mess around with this document in Word, [click here to pull the *.docx file off AWS](http://aws.com).
 
 `Party 1 Name` Provider
 
