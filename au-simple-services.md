@@ -13,6 +13,8 @@ This agreement is on [Github](http://github.com) in [Markdown](https://help.gith
 
 `Party 2 Name` Customer
 
+`Jurisdiction` Australia
+
 ## Duration of the agreement
 
 This topic makes the start time and the end time of the agreement clear. Does the agreement:
