@@ -7,7 +7,7 @@
 
 Feel free to get in touch with Pat (the software provider / lawyer responsible for all this) on pat[at]codepact[dot]com to tell him what you think of CodePact.
 
-This agreement is on [Github](http://github.com) in [Markdown](https://help.github.com/articles/github-flavored-markdown/). If you’re logged in to Github, [Click here to submit a PULL REQUEST](http://github.com/CodePact/au-simple-services/pull/new/master) and [click here to FORK this document](https://github.com/CodePact/au-simple-services/fork). This is an **open source** document – contributions and evolutions are welcome!
+This agreement is on [Github](http://github.com). If you’re logged in to Github, [click here to fork this document](https://github.com/CodePact/au-simple-services/fork). This is an **open source** document – pull requests are welcome!
 
 `Party 1 Name` Provider
 
