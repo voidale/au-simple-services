@@ -1,6 +1,6 @@
 # Simple Services Agreement
 
-`Purpose` If you provide services to people (software development, lawn mowing, graphic design - stuff like that), the _Simple_ _Services_ _Agreement_:
+`Purpose` If you are providing or recieving services (software development, graphic design, consulting advice etc), the _Simple_ _Services_ _Agreement_:
 - gets you paid;
 - limits what you can get sued for; and
 - describes what you agree to do for the customer.
