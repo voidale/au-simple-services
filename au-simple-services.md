@@ -81,26 +81,26 @@ Invoices from Provider will be paid by Customer within {{payment terms}} of Cust
 
 This issue makes clear which party owns the [intellectual property](https://github.com/lawpatch/dictionary/blob/master/intellectual_property.md) (**IP**) that comes into existence as a result of this document.
 
-### Provider will own the Services IP but license the Client to use it.
+### Provider will own the Services IP but license the Customer to use it.
 
 - Provider will own all the Intellectual Property Rights in the Services IP.
-- With the exception of any Contributed IP, Client assigns all Intellectual Property Rights in the Services IP to Provider.
-- Provider grants Client a licence that is non-exclusive, irrevocable, royalty-free, sublicenseable and assignable, to use the Services IP for {{code license purpose}}.
-- The Client agrees to do all things necessary to give effect to the assignment of Intellectual Property Rights in this clause.
+- With the exception of any Contributed IP, Customer assigns all Intellectual Property Rights in the Services IP to Provider.
+- Provider grants Customer a licence that is non-exclusive, irrevocable, royalty-free, sublicenseable and assignable, to use the Services IP for {{code license purpose}}.
+- The Customer agrees to do all things necessary to give effect to the assignment of Intellectual Property Rights in this clause.
 - Each party warrants that it will obtain any Moral Rights waivers and consents necessary to ensure the other party can use the Services IP in accordance with this Agreement without infringing Moral Rights.
 
-### Client owns the New IP in the Services IP and Provider licenses Client to use Background IP to the extent it’s contained in the Services IP.
+### Customer owns the New IP in the Services IP and Provider licenses Customer to use Background IP to the extent it’s contained in the Services IP.
 
 - The Provider will own all the Background IP in the Services IP.
-- The Client will own all the New IP in the Services IP.
-- With the exception of any Background IP, Provider assigns all Intellectual Property Rights in the Services IP to the Client.
-- Provider grants Client a licence that is non-exclusive, irrevocable, royalty-free, sublicenseable and assignable, to use the Background IP in the Services IP for {{code license purpose}}.
+- The Customer will own all the New IP in the Services IP.
+- With the exception of any Background IP, Provider assigns all Intellectual Property Rights in the Services IP to the Customer.
+- Provider grants Customer a licence that is non-exclusive, irrevocable, royalty-free, sublicenseable and assignable, to use the Background IP in the Services IP for {{code license purpose}}.
 - The Provider agrees to do all things necessary to give effect to the assignment of Intellectual Property Rights in this clause.
 - Each party warrants that it will obtain any Moral Rights waivers and consents necessary to ensure the other party can use the Services IP in accordance with the Agreement without infringing Moral Rights.
 
-### Client will own all the Services IP.
+### Customer will own all the Services IP.
 
-- Provider assigns all Intellectual Property Rights in the Services IP to the Client.
+- Provider assigns all Intellectual Property Rights in the Services IP to the Customer.
 - The Provider agrees to do all things necessary to give effect to the assignment of Intellectual Property Rights in this clause.
 - Each party warrants that it will obtain any Moral Rights waivers and consents necessary to ensure the other party can use the Services IP in accordance with the Agreement without infringing Moral Rights.
 
@@ -174,7 +174,7 @@ means the agreement arising between the parties in accordance with this document
 means the Intellectual Property Rights owned by Developer prior to the creation of the Agreement.
 
 ### Contributed IP
-means the Intellectual Property Rights owned by Client prior to the creation of the Agreement.
+means the Intellectual Property Rights owned by Customer prior to the creation of the Agreement.
 
 ### Services IP
 means the Intellectual Property Rights created under the Agreement by the Provider.
