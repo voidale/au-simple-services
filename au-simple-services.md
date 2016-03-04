@@ -155,10 +155,6 @@ Either party may terminate the Agreement if:
 
 Either party may terminate the Agreement {{termination process}}.
 
-## Other conditions
-
-{{special conditions}}
-
 ## Other (necessary) bureaucracy
 
 - The governing law of the Agreement will be {{governing law state}}, and the parties agree that this state will be the exclusive jurisdiction for any proceedings under the Agreement.
