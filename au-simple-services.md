@@ -1,13 +1,11 @@
 # Simple Services Agreement
 
-`Purpose` If you are providing or recieving services (software development, graphic design, consulting advice etc), the _Simple_ _Services_ _Agreement_:
+`Purpose` If you provide services to people (software development, lawn mowing, graphic design - stuff like that), the _Simple Services Agreement_:
 - gets you paid;
 - limits what you can get sued for; and
-- describes what you agree to do for the customer.
+- makes clear what you agree to do for the customer.
 
-Feel free to get in touch with Pat (the software provider / lawyer responsible for all this) on pat[at]codepact[dot]com to tell him what you think of CodePact.
-
-This agreement is on [Github](http://github.com). If you’re logged in to Github, [click here to fork this document](https://github.com/CodePact/au-simple-services/fork). This is an **open source** document – pull requests are welcome!
+This agreement is on [Github](http://github.com) in [Markdown](https://help.github.com/articles/github-flavored-markdown/). If you’re logged in to Github, [click here to **fork** this document](https://github.com/CodePact/au-simple-services/fork). This is an **open source** document – contributions and evolutions are welcome!
 
 `Party 1 Name` Provider
 
@@ -23,19 +21,19 @@ This topic makes the start time and the end time of the agreement clear. Does th
 
 Select an option…
 
-### Provider will provide the Service to the Customer for an agreed period of time.
+### Provider will provide the Service to the Customer for a period of time.
 
-Provider will provide the Services to Customer for {{term duration}} after the parties enter the Agreement, unless the Agreement is terminated under another provision of the Agreement.
+Provider will provide the Services to Customer {{term duration}}, unless the Agreement is terminated under another provision of the Agreement.
 
-### Provider will provide the Service until it completes a certain agreed project.
+### Provider will provide the Service until it completes a project.
 
-Provider will provide the Services to Customer until the Provider completes the Services.
+Provider will provide the Services to Customer until Provider completes {{work description}}.
 
 ## Calculation of fees
 
 This topic describes the amount that the customer will pay the provider for the services.
 
-### Provider is paid at an hourly rate for the Service.
+### Provider is paid at an hourly rate for the Services.
 
 The fees payable to Provider in exchange for the Services will be calculated at {{rate of payment}}.
 
@@ -43,11 +41,15 @@ The fees payable to Provider in exchange for the Services will be calculated at 
 
 Provider will be paid the {{total amount}} in exchange for the Services.
 
-### Provider will be paid the fees set out in the clause’s table.
+### Provider will be paid the fees set out in the clause table.
 
-Customer will pay the Provider the fees set out in the table below.
+Customer will pay Provider the fees set out in the table below.
 
 {{fees table}}
+
+### Provider will be paid the fees set out in another document.
+
+Customer will pay Provider the fees set out {{work description}}.
 
 ## Timing for payment of the fees
 
@@ -77,37 +79,64 @@ Provider will issue Customer with invoices for the amounts set out below in acco
 
 Invoices from Provider will be paid by Customer within {{payment terms}} of Customer receiving the invoice.
 
-## Intellectual Property
+### Provider will be paid the fees set out in another document.
 
-This issue makes clear which party owns the [intellectual property](https://github.com/lawpatch/dictionary/blob/master/intellectual_property.md) (**IP**) that comes into existence as a result of this document.
+Customer will pay Provider the fees set out in {{work description}}.
 
-### Provider will own the Services IP but license the Customer to use it.
+## Timing for the completion of the services
 
-- Provider will own all the Intellectual Property Rights in the Services IP.
-- With the exception of any Contributed IP, Customer assigns all Intellectual Property Rights in the Services IP to Provider.
-- Provider grants Customer a licence that is non-exclusive, irrevocable, royalty-free, sublicenseable and assignable, to use the Services IP for {{code license purpose}}.
-- The Customer agrees to do all things necessary to give effect to the assignment of Intellectual Property Rights in this clause.
-- Each party warrants that it will obtain any Moral Rights waivers and consents necessary to ensure the other party can use the Services IP in accordance with this Agreement without infringing Moral Rights.
+When the service provider is providing a completed job for a fixed amount of money, the parties need to agree whether or not the timeframe for completion is a **binding deadline** or an **indicative estimate**.
 
-### Customer owns the New IP in the Services IP and Provider licenses Customer to use Background IP to the extent it’s contained in the Services IP.
+The first option provides an estimate, non-binding time frame.
 
-- The Provider will own all the Background IP in the Services IP.
-- The Customer will own all the New IP in the Services IP.
-- With the exception of any Background IP, Provider assigns all Intellectual Property Rights in the Services IP to the Customer.
-- Provider grants Customer a licence that is non-exclusive, irrevocable, royalty-free, sublicenseable and assignable, to use the Background IP in the Services IP for {{code license purpose}}.
-- The Provider agrees to do all things necessary to give effect to the assignment of Intellectual Property Rights in this clause.
-- Each party warrants that it will obtain any Moral Rights waivers and consents necessary to ensure the other party can use the Services IP in accordance with the Agreement without infringing Moral Rights.
+The second option fixes a deadline for delivery of the services. If the service provider does not complete the work by the deadline, it would be a breach of contract.
 
-### Customer will own all the Services IP.
+### Provider estimates completion time for the Services
 
-- Provider assigns all Intellectual Property Rights in the Services IP to the Customer.
-- The Provider agrees to do all things necessary to give effect to the assignment of Intellectual Property Rights in this clause.
-- Each party warrants that it will obtain any Moral Rights waivers and consents necessary to ensure the other party can use the Services IP in accordance with the Agreement without infringing Moral Rights.
+Provider estimates that it will complete the Services by approximately {{estimate timeframe}}. The parties agree that the timeframe in this clause is an estimate only, and is not binding on Provider.
+
+### The job will be delivered by a specific date.
+
+Provider will achieve completion of the Services {{deadline}}.
+
+## Out of scope work
+
+If Provider provides services not contemplated by the Agreement, Customer will pay Provider a rate of {{out scope rate}} for those services. Provider may invoice Customer for such work at its discretion, Customer will pay within {{payment terms}} of receiving the invoice.
 
 ## LawPatch
 
 - The parties agree to this document using [LawPatch language](https://github.com/lawpatch) because legalese is tedious.
 - The [LawPatch language](https://github.com/lawpatch) referenced by hyperlink is legally effective. Text in the hyperlink is for convenience only and is not legally effective.
+
+## Intellectual Property
+
+This issue makes clear which party owns the [intellectual property](https://github.com/lawpatch/dictionary/blob/master/intellectual_property.md) in the product delivered by the service provider to the client.
+
+There are 3 options.
+
+**The first option** gives the service provider ownership of all the intellectual property created under the agreement. In this option, the client is allowed to use the intellectual property via a license. This option is advantageous to the service provider, since as owner of the intellectual property, they are then able to reuse the intellectual property created under this agreement for future clients.
+
+**The second option** creates a split between:
+- Intellectual property that the service provider brings to the relationship with the client; and
+- Intellectual property that the service provider creates for the client under this agreement.
+
+This option does not allow the service provider to use the intellectual property created under the agreement for his or her purposes.
+
+**The third option** transfers the ownership of all the code to the client. This option should be used when the service provider brings absolutely no prior code to providing the service.
+
+### Provider will own all the intellectual property in the Services IP and licenses the Customer to use it.
+
+- Customer [transfers ownership of the intellectual property rights](https://github.com/lawpatch/au-ip_transfer/blob/46c52f352f77b06a3f655cc11b0f68bb4ba72630/au-ip_transfer.md) in the Services IP to Provider, with the exception of any Contributed IP.
+- Provider [grants a licence](https://github.com/lawpatch/au-ip_license/blob/5a7f77c72443475d8d34fc0487547dfac0671287/au-license_ip.md) {{licence characteristics}} to the Customer to deal with the Services IP for {{license purpose}}.
+
+### Provider owns the Background IP in the Services IP and Customer owns the New IP in the Services IP. Provider licenses Customer to use Background IP in the Services IP.
+
+- Provider [transfers ownership of the intellectual property rights](https://github.com/lawpatch/au-ip_transfer/blob/46c52f352f77b06a3f655cc11b0f68bb4ba72630/au-ip_transfer.md) in the New IP in the Services IP to Customer, with the exception of any Background IP.
+- Provider [grants a licence](https://github.com/lawpatch/au-ip_license/blob/5a7f77c72443475d8d34fc0487547dfac0671287/au-license_ip.md) {{licence characteristics}} to the Customer to deal with the Background IP for {{license purpose}}.
+
+### Customer will own all the intellectual property in the Services IP.
+
+Provider [transfers ownership of the intellectual property rights](https://github.com/lawpatch/au-ip_transfer/blob/46c52f352f77b06a3f655cc11b0f68bb4ba72630/au-ip_transfer.md) in the Services IP to Customer.
 
 ## Limitation of liability
 
@@ -127,7 +156,7 @@ Provider [limits liability as much as the law allows](https://github.com/lawpatc
 
 ### Provider will limit the amount it can be sued for by the Customer to the Liability Limit.
 
-Provider limits liability to Customer for the Services to the cost of the Services in accordance with the [LawPatch amount limitation](https://github.com/lawpatch/au-limitation/blob/90bb197e3299a4025af8c3db50e33b3f291e66a2/au-limitation-1.md), including liabilities caused by:
+Provider limits liability to Customer for the Services to {{limitation amount}} in accordance with the [LawPatch amount limitation](https://github.com/lawpatch/au-limitation/blob/90bb197e3299a4025af8c3db50e33b3f291e66a2/au-limitation-1.md), including liabilities caused by:
 
 {{risks to exclude}}
 
@@ -141,7 +170,7 @@ Provider [covers liabilities (except for consequential loss)](https://github.com
 
 Provider [covers all liabilities incurred](https://github.com/lawpatch/au-limitation/blob/90bb197e3299a4025af8c3db50e33b3f291e66a2/au-limitation-3.md) by Customer for the Services.
 
-## Termination
+## Termination for breach
 
 The parties need to figure out when the contract ends.
 
@@ -154,6 +183,10 @@ Either party may terminate the Agreement if:
 ### Either party can end the agreement whenever they like.
 
 Either party may terminate the Agreement {{termination process}}.
+
+## Extra conditions
+
+{{extra conditions}}
 
 ## Other (necessary) bureaucracy
 
@@ -171,75 +204,27 @@ Either party may terminate the Agreement {{termination process}}.
 means the agreement arising between the parties in accordance with this document and the other documents referred to by this document.
 
 ### Background IP
-means the Intellectual Property Rights owned by Developer prior to the creation of the Agreement.
+means the intellectual property rights owned by Provider prior to the creation of the Agreement.
+
+### Communication, Communications
+means any contractual communication in connection with the Agreement.
 
 ### Contributed IP
-means the Intellectual Property Rights owned by Customer prior to the creation of the Agreement.
-
-### Services IP
-means the Intellectual Property Rights created under the Agreement by the Provider.
-
-### Intellectual Property Rights
-means intellectual property and any rights associated with intellectual property, whether those rights are registered or unregistered.
-
-### New IP
-means the Intellectual Property Rights created under the Agreement.
-
-### Moral Rights
-means the rights commonly referred to as "moral rights", such as the right of attribution, which are recognised in the jurisdiction of the Agreement.
-
-### Communication
-means any contractual communication in connection with the Agreement.
+means the intellectual property rights owned by Customer prior to the creation of the Agreement.
 
 ### GST Law
 means the _A New Tax System (Goods and Services Tax) Act_ 1999 (Cth).
 
-### Liability Limit
-means {{limitation amount}}.
+### New IP
+means the intellectual property rights created under the Agreement.
 
 ### Service, Services
 means {{description of services}}.
 
+### Services IP
+means the intellectual property rights in the Services rendered by Provider to Customer.
+
 ## Variables
-
-#### term duration
-
-NUMBER days [OR] NUMBER weeks [OR] NUMBER months
-
-`Guidance` Fill in the period of time that the agreement will govern the provider and the client. The provider will provide the services for this period of time, and the customer will need to pay for the services for this period of time.
-
-#### rate of payment
-
-$ NUMBER per hour [OR] $ NUMBER per day [OR] the rate set out in the PROJECT SCOPE DOCUMENT
-
-`Guidance` This variable can be filled in with: (1) the hourly rate of the provider; (2) the daily rate of the provider; or (3) the rate set out in a project scope document.
-
-#### total amount
-
-$AMOUNT [OR] the amount set out in the PROJECT SCOPE DOCUMENT
-
-`Guidance` Fill in this variable with the total amount that the customer will pay the service provider for the services. It should be an all-inclusive amount because this is the _total_ amount. It’s probably a good idea to set out the amount of GST too.
-
-#### document name
-
-in the document entitled TITLE sent by email on DATE [OR] in the document at URL
-
-`Guidance` Fill in this variable with the name of the document that describes the fees of the services provider. The document could be a "Project Scope Document", or a web page that sets out prices.
-
-#### fees table
-
-| Service | Amount
-|----------------------|--------
-| DESCRIBE SERVICE | $ AMOUNT
-| DESCRIBE SERVICE | $ AMOUNT
-
-`Guidance` Fill in the [markdown table](https://help.github.com/articles/github-flavored-markdown/) with the cost components of the services. In the left column, describe the service, and in the right column, describe the price as a dollar value.
-
-#### code license purpose
-
-any purpose whatsoever
-
-`Guidance` This variable sets out the boundaries for the use of the code. The default value here of "any purpose whatsoever" is very expansive: it allows the recipient of the license to use the code in whatever way they want to, which the ownership remains with the license giver.
 
 #### billing cycle period
 
@@ -247,11 +232,17 @@ month
 
 `Guidance` Fill in this variable with a time period for the billing cycle. It’s great to get paid weekly, but you have to issue an invoice before you get paid. The billing cycle period is a balance between keeping your cash flow regular and the administrative overhead of issuing the invoices required to get paid.
 
-#### payment period
+#### completion amount
 
-14 days
+50% of the total amount payable for the Services
 
-`Guidance` Fill this variable in with the amount of time between the customer receiving the invoice and the invoice's due date for payment.
+`Guidance` The completion amount is the money paid after the completion of the services. It is usually defined as a percentage amount of the overall cost of the development services under the agreement.
+
+#### document name
+
+in the document entitled TITLE sent by email on DATE [OR] in the document at URL
+
+`Guidance` Fill in this variable with the name of the document that describes the fees of the services provider. The document could be a "Project Scope Document", or a web page that sets out prices.
 
 #### deposit amount
 
@@ -259,23 +250,38 @@ month
 
 `Guidance` The deposit is a non-refundable upfront payment for the services. It is usually defined as a percentage amount of the overall cost of the development services under the agreement. You could also use an amount, though.
 
-#### completion amount
+#### extra conditions
 
-50% of the total amount payable for the Services
+SPECIAL CONDITIONS
 
-`Guidance` The completion amount is the money paid after the completion of the services. It is usually defined as a percentage amount of the overall cost of the development services under the agreement.
+`Guidance` You can add special conditions above in a single or multiline variable.
 
-#### termination process
+#### fees table
 
-with 10 days of written notice to the other party
+| Work Description | Amount
+|----------------------|--------
+| DESCRIBE SERVICE | $ AMOUNT
+| DESCRIBE SERVICE | $ AMOUNT
 
-`Guidance` This is how a party can terminate the agreement. The default text sets out a system where you need to warn the other party with a written notification ten days before you terminate the agreement.
+`Guidance` Fill in the [markdown table](https://help.github.com/articles/github-flavored-markdown/) with the cost components of the services. In the left column, describe the service, and in the right column, describe the price as a dollar value.
 
-#### payment terms
+#### governing law state
 
-14 days
+New South Wales
 
-`Guidance` This is the amount of time between the customer receiving the invoice and the invoice's due date for payment.
+`Guidance` This is the state that you will go to court in if there’s legal action under this document. It’s usually better to have a "home court" advantage. If your business is in New South Wales, make the forum the New South Wales courts.
+
+#### license purpose
+
+any purpose whatsoever
+
+`Guidance` This variable sets out the boundaries for the use of the code. The default value here of "any purpose whatsoever" is very expansive: it allows the recipient of the license to use the code in whatever way they want to, which the ownership remains with the license giver.
+
+#### limitation amount
+
+the amount paid to Provider by the Customer in exchange for the Services [OR] $AMOUNT
+
+`Guidance` Describe the amount of money that the customer can sue the provider for. The example text allows the customer to get a full refund, since the Provider can sue for the amount paid for the services by the customer. You can describe the amount or put a specific dollar figure on it.
 
 #### milestones
 
@@ -284,6 +290,24 @@ with 10 days of written notice to the other party
 | DESCRIBE MILESTONE | PAYMENT
 
 `Guidance` This table variable is where you define the milestones for payment. The "Milestone" column is where the parties describe the services milestone that triggers the ability of the service provider to invoice for the amount in the "Payment" column. It's important to provide as much detail as possible about each milestone. An example might be, "Completion of the wireframe diagrams for the home page, profile page and news feed page."
+
+#### payment period
+
+14 days
+
+`Guidance` Fill this variable in with the amount of time between the customer receiving the invoice and the invoice's due date for payment.
+
+#### payment terms
+
+14 days
+
+`Guidance` This is the amount of time between the customer receiving the invoice and the invoice's due date for payment.
+
+#### rate of payment
+
+$ NUMBER per hour [OR] $ NUMBER per day [OR] the rate set out in the PROJECT SCOPE DOCUMENT
+
+`Guidance` This variable can be filled in with: (1) the hourly rate of the provider; (2) the daily rate of the provider; or (3) the rate set out in a project scope document.
 
 #### risks to exclude
 
@@ -302,7 +326,7 @@ with 10 days of written notice to the other party
 
 [CONSULTING]
 
-- reliance on advice communicated by the Provider in whatever form;
+- reliance on advice communicated by Provider in whatever form;
 - failure to provide correct information or opinions;
 - faulty technical advice or data;
 
@@ -323,23 +347,25 @@ with 10 days of written notice to the other party
 
 `Guidance` It’s very important to set out the risks that are most likely to cause problems (and get the service provider sued). Don’t rely on the lists in the default text – think of the biggest risks around the services you provide!
 
-#### special conditions
+#### term duration
 
-TYPE SPECIAL CONDITIONS HERE
+for NUMBER days [OR] NUMBER weeks [OR] NUMBER months after the parties enter the Agreement
 
-#### governing law state
+`Guidance` Fill in the period of time that the agreement will govern the provider and the client. The provider will provide the services for this period of time, and the customer will need to pay for the services for this period of time.
 
-New South Wales
+#### termination process
 
-`Guidance` This is the state that you will go to court in if there’s legal action under this document. It’s usually better to have a "home court" advantage. If your business is in New South Wales, make the forum the New South Wales courts.
+with 10 days of written notice to the other party
 
-#### limitation amount
+`Guidance` This is how a party can terminate the agreement. The default text sets out a system where you need to warn the other party with a written notification ten days before you terminate the agreement.
 
-the amount paid to the Provider by the Customer in exchange for the Services [OR] $AMOUNT
+#### total amount
 
-`Guidance` Describe the amount of money that the customer can sue the provider for. The example text allows the customer to get a full refund, since the Provider can sue for the amount paid for the services by the customer. You can describe the amount or put a specific dollar figure on it.
+$AMOUNT [OR] the amount set out in the PROJECT SCOPE DOCUMENT
 
-#### description of services
+`Guidance` Fill in this variable with the total amount that the customer will pay the service provider for the services. It should be an all-inclusive amount because this is the _total_ amount. It’s probably a good idea to set out the amount of GST too.
+
+#### work description
 
 the TYPE OF SERVICES provided by Provider to Customer [OR] the document provided by Provider to Customer entitled "Scope of Work"
 
