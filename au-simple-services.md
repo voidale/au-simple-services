@@ -1,11 +1,11 @@
 # Simple Services Agreement
 
-`Purpose` If you provide services to people (software development, lawn mowing, graphic design - stuff like that), the _Simple Services Agreement_:
+`Purpose` If you provide services to people (software development, graphic design - stuff like that), the _Simple Services Agreement_:
 - gets you paid;
 - limits what you can get sued for; and
 - makes clear what you agree to do for the customer.
 
-This agreement is on [Github](http://github.com) in [Markdown](https://help.github.com/articles/github-flavored-markdown/). If you’re logged in to Github, [click here to **fork** this document](https://github.com/CodePact/au-simple-services/fork). This is an **open source** document – contributions and evolutions are welcome!
+This agreement is on [Github in Markdown](https://github.com/CodePact/au-simple-services/blob/master/au-simple-services.md). If you’re logged in to Github, [click here to fork this document](https://github.com/CodePact/au-simple-services/fork). This is an **open source** document – edits are welcome!
 
 `Party 1 Name` Provider
 
