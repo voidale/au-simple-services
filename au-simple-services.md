@@ -218,7 +218,7 @@ means the _A New Tax System (Goods and Services Tax) Act_ 1999 (Cth).
 means the intellectual property rights created under the Agreement.
 
 ### Service, Services
-means {{description of services}}.
+means {{services description}}.
 
 ### Services IP
 means the intellectual property rights in the Services rendered by Contractor to Customer.
