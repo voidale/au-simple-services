@@ -188,7 +188,7 @@ Either party may terminate the Agreement {{termination process}}.
 
 ## Other (necessary) bureaucracy
 
-- The parties agree to this document using [LawPatch language](https://github.com/lawpatch). [LawPatch language](https://github.com/lawpatch) referenced by hyperlink is legally effective. Text in the hyperlink is for convenience only and is not legally effective.
+- The parties agree to this document using http://lawpatch.org language.  LawPatch language referenced by hyperlink is legally effective. Text in the hyperlink is for convenience only and is not legally effective.
 - The governing law of the Agreement will be {{governing law state}}, and the parties agree that this state will be the exclusive jurisdiction for any proceedings under the Agreement.
 - The parties may send Communications to other Agreement parties using the email addresses listed in the party details section of the Agreement.
 - The Customer will be liable for all duties and taxes connected with the Agreement, including any tax incurred under GST Law.
