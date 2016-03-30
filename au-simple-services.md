@@ -1,4 +1,4 @@
-# Simple Services Agreement v9
+# Simple Services Agreement v10
 
 `Purpose` If you provide services to people as a contractor (software development, graphic design - stuff like that), the _Simple Services Agreement_:
 - gets you paid;
